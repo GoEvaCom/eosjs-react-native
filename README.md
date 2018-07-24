@@ -92,3 +92,6 @@ Now you can try running the project, make sure the good HTTP address is set to y
 ```
 react-native run-ios //or - react-native run-android
 ```
+
+## Roadmap and contribution
+Contribution would be really appreciated. One day this library could properly map eosjs into a react-native package we can use the node package manager `npm` to install directly in a react-native project without the manual tweaking.

@@ -3,7 +3,7 @@ import './shim.js'
 import eos from 'eosjs'
 
 const KEY = "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3";
-const RPC_API_URL = "http://167.99.181.173:8888";
+const RPC_API_URL = "http://127.0.0.1:8888";
 
 export function get_net(){
   config = {
@@ -18,7 +18,6 @@ export function get_net(){
 
 export function get_info(){
 	let net = get_net();
-	console.log('net', net);
 	return net.getInfo({}).then(info => {
 		return info;
 	});

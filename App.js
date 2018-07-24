@@ -25,7 +25,6 @@ export default class App extends Component<Props> {
   }
 
   componentDidMount(){
-    console.log('did mount');
     get_info().then(info => {
       this.setState({
         'head_block_producer': info['head_block_producer'],
