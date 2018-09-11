@@ -28,7 +28,6 @@
     "react-native-level-fs": "^3.0.1",
     "react-native-os": "^1.2.1",
     "react-native-randombytes": "^3.4.0",
-    "react-native-securerandom": "^0.1.1",
     "react-native-tcp": "^3.3.0",
     "react-native-udp": "^2.3.1",
     "readable-stream": "^1.0.33",
