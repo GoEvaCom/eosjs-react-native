@@ -57,11 +57,8 @@ Then Install eosjs, securerandom rn
 
 ```
 npm i --save eosjs
-npm i --save react-native-securerandom
 ```
-Following this, enable the crypto module in `./shim.js`
-Change
-`// require('crypto')` to -> `require('crypto')`
+Then make sure `require('crypto')` is present in the file shim.js at the root of the project
 
 You need to do a little tweak now in the library `isomorphic-fetch` file `fetch-npm-browserify.js`
 
